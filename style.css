@@ -24,6 +24,7 @@ button {
   font-size: 2em;
 }
 .todo-list {
+  min-height: 100px;
   padding: 10px;
   border-radius: 10px;
   background-color: lightblue;
