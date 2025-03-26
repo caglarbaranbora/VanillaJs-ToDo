@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>TODO</title>
-    <link rel="stylesheet" href="script.js" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <script src="script.js"></script>
+    <div class="container">
+      <div class="input">
+        <input placeholder="To-Do" id="input" type="text" />
+        <button onclick="saveItem()">Kaydet</button>
+      </div>
+      <div class="todo-list" id="todoList"></div>
+    </div>
   </body>
 </html>
